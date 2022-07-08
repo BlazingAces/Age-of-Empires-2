@@ -1,0 +1,161 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0%;
+}
+/* [header] */
+
+#header {
+    border-image-slice: 100;
+    border-image-source: linear-gradient(90deg,rgba(184,134,45,0),#b8862d,#ffdf91,#b8862d,rgba(184,134,45,0));
+    border-style: solid;
+    position: relative;
+    z-index: 500;
+    background-image: url(title.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #cda351;
+    padding: 0;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    top:50%;
+    padding: 1%;
+}
+
+#mainTitle {
+    text-align: center;
+    display: block;
+    font-size: 60px;
+    color:white;
+    font-family: 'ArcadeClassic', sans-serif;
+}
+
+/* [image] */
+
+.age2 {
+    width: 50%;
+    float: right;
+    clear:right;
+}
+
+/* [navBar] */
+
+.navBar {
+    border-style:solid;
+    border-image-source: linear-gradient(90deg,rgba(184,134,45,0),#b8862d,#ffdf91,#b8862d,rgba(184,134,45,0));
+    border-image-slice: 1;
+}
+
+.bar {
+    background-color: #8B0000;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+    font-family: 'ArcadeClassic', sans-serif;
+}
+
+.bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* [MiddleBody] */
+
+#mainPage {
+    background-color: tan;
+    opacity: 80%;
+    padding: 24px 36px;
+    position: absolute;
+    left: 14%;
+    margin-right: -50%;
+    width: 1000px;
+    align-content: center;
+    border-style: solid;
+    color:#8B0000;
+}
+
+#Title {
+    font-family: 'ArcadeClassic', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.avatar {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#Gameplay {
+    font-family: 'ArcadeClassic', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+#creator {
+    text-align: center;
+    font-size: 20px;
+}
+
+#howTo {
+    font-size: 17px;
+}
+
+/* [footer] */
+
+#quote {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* [civilization page] */
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.player {
+    font-family: 'ArcadeClassic', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.tech {
+    font-family: 'ArcadeClassic', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.info {
+    font-size: 17px;
+}
+
+
+

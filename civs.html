@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="http://fonts.cdnfonts.com/css/arcade-classic" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href ="style.css">
+        <script defer src="civs.js"></script>
+        <title>Age Of Empires 2</title>
+    </head>
+    <body>
+        <div id="main"></div>
+        <header id="header">
+            <h1 id ="mainTitle">AGE OF EMPIRES 2</h1>
+        </header>
+        <nav class="navBar">
+            <div class="navBarContainer" id="navbarbox">
+                <div class="bar">
+                    <a class="home" href="index.html">Home</a>
+                    <a class="civilizations" href="civs.html">Civilizations</a>
+                    <a class = "link" href="https://www.ageofempires.com/games/aoeiide/">Official Site</a>
+                </div>
+            </div>
+        </nav>
+        <div id="mainPage" class="text-center container pt-4">
+                <form id = "select">
+                    <label for="civs">Choose A Civilization</label>
+                    <input type="button" value="Submit" id="submit">
+                    <div id = "container">
+                        <select name="civs" id ="civilizations">
+                            <option value ="Aztecs">Aztecs</option>
+                            <option value ="Britons">Britons</option>
+                            <option value ="Byzantines">Byzantines</option>
+                            <option value ="Celts">Celts</option>
+                            <option value ="Chinese">Chinese</option>
+                            <option value ="Franks">Franks</option>
+                            <option value = "Goths">Goths</option>
+                            <option value = "Huns">Huns</option>
+                            <option value = "Japanese">Japanese</option>
+                            <option value = "Koreans">Koreans</option>
+                            <option value = "Mayans">Mayans</option>
+                            <option value = "Mongols">Mongols</option>
+                            <option value = "Persians">Persians</option>
+                            <option value = "Saracens">Saracens</option>
+                            <option value = "Spanish">Spanish</option>
+                            <option value = "Teutons">Teutons</option>
+                            <option value = "Turks">Turks</option>
+                            <option value = "Vikings">Vikings</option>
+                            <option value = "Berbers">Berbers</option>
+                            <option value = "Burmese">Burmese</option>
+                            <option value = "Ethiopians">Ethiopians</option>
+                            <option value = "Goths">Goths</option>
+                            <option value = "Incas">Incas</option>
+                            <option value = "Indians">Indians</option>
+                            <option value = "Italians">Italians</option>
+                            <option value = "Malay">Malay</option>
+                            <option value = "Khmer">Khmer</option>
+                            <option value = "Magyers">Magyars</option>
+                            <option value = "Malians">Malians</option>
+                            <option value = "Portuguese">Portuguese</option>
+                            <option value = "Slavs">Slavs</option>
+                            <option value = "Vietnamese">Vietnamese</option>
+                        </select>
+                        <h1 class = "player">Civilizations</h1>
+                        <p class = "info"> Age of Empires II features over 32 civilizations, each with their own Unique Unit, Technologies and Technology Tree for you to enjoy.
+                        Each Civilization has different bonuses that range from gathering resources faster, cheaper military units, not requiring Houses to increase population and so many others! If you would like a little more info on each civilization, please use the selector above.</p> 
+
+                        <h2 class = "tech">Technologies</h2>
+                        <p  class = info>
+                        In Age of Empires II, each civilization has access to the same classes of units. The upgrades for these units, however, vary across civilizations.
+                        A complete view of these available upgrades is in the Technology Tree, which shows the units and upgrades each Civilization has access to.
+                        Reading the Technology Tree is broken down into different colored squares. A cross over one of these squares means that this is unavailable for the current civilization.
+                        </p>
+                        <img class = "techTree" src = "techtree.png">
+                    </div>
+                </form>
+            </div>
+    </body>
+</html>
+
+            <!-- <div id = "container">
+                <form id = "select">
+                    <label for="civs">Choose A Civilization</label>
+                        <select name="civs" id ="civilizations">
+                            <option value ="Aztecs">Aztecs</option>
+                            <option value ="Britons">Britons</option>
+                            <option value ="Byzantines">Byzantines</option>
+                            <option value ="Celts">Celts</option>
+                            <option value ="Chinese">Chinese</option>
+                            <option value ="Franks">Franks</option>
+                            <option value = "Goths">Goths</option>
+                            <option value = "Huns">Huns</option>
+                            <option value = "Japanese">Japanese</option>
+                            <option value = "Koreans">Koreans</option>
+                            <option value = "Mayans">Mayans</option>
+                            <option value = "Mongols">Mongols</option>
+                            <option value = "Persians">Persians</option>
+                            <option value = "Saracens">Saracens</option>
+                            <option value = "Spanish">Spanish</option>
+                            <option value = "Teutons">Teutons</option>
+                            <option value = "Turks">Turks</option>
+                            <option value = "Vikings">Vikings</option>
+                            <option value = "Berbers">Berbers</option>
+                            <option value = "Burmese">Burmese</option>
+                            <option value = "Ethiopians">Ethiopians</option>
+                            <option value = "Goths">Goths</option>
+                            <option value = "Incas">Incas</option>
+                            <option value = "Indians">Indians</option>
+                            <option value = "Italians">Italians</option>
+                            <option value = "Malay">Malay</option>
+                            <option value = "Khmer">Khmer</option>
+                            <option value = "Magyers">Magyars</option>
+                            <option value = "Malians">Malians</option>
+                            <option value = "Portuguese">Portuguese</option>
+                            <option value = "Slavs">Slavs</option>
+                            <option value = "Vietnamese">Vietnamese</option>
+                        </select>
+                        <input type="button" value="Submit" id="submit">
+                </form>
+            </div>
