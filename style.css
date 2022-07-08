@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin:0%;
+    cursor: url(hand.png), auto;
 }
 /* [header] */
 
@@ -70,9 +71,33 @@ body {
   }
 
 .bar a:hover {
-    background-color: #ddd;
+    background-color: brown;
     color: black;
   }
+
+.home {
+    border-style:solid;
+    border-image-source: linear-gradient(90deg,rgba(184,134,45,0),#b8862d,#ffdf91,#b8862d,rgba(184,134,45,0));
+    border-image-slice: 1;
+}
+
+.teams {
+    border-style:solid;
+    border-image-source: linear-gradient(90deg,rgba(184,134,45,0),#b8862d,#ffdf91,#b8862d,rgba(184,134,45,0));
+    border-image-slice: 1;
+}
+
+.link1 {
+    border-style:solid;
+    border-image-source: linear-gradient(90deg,rgba(184,134,45,0),#b8862d,#ffdf91,#b8862d,rgba(184,134,45,0));
+    border-image-slice: 1;
+}
+
+.link2 {
+    border-style:solid;
+    border-image-source: linear-gradient(90deg,rgba(184,134,45,0),#b8862d,#ffdf91,#b8862d,rgba(184,134,45,0));
+    border-image-slice: 1;
+}
 
 /* [MiddleBody] */
 
@@ -118,6 +143,12 @@ body {
     font-size: 17px;
 }
 
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* [footer] */
 
 #quote {
@@ -155,6 +186,12 @@ body {
 
 .info {
     font-size: 17px;
+}
+
+.techTree {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
