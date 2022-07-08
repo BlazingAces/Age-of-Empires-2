@@ -43,20 +43,23 @@ function createCivsList(data) {
   $h1.appendTo($container);
 
   let $p = $("<p class = expansion></p>");
-  $p.text(civsData.expansion);
+  $p.text("Expansion: " + civsData.expansion);
   $p.appendTo($container);
 
   let $p2 = $("<p class = armyType></p>");
-  $p2.text(civsData.army_type);
+  $p2.text("Army Type: " + civsData.army_type);
   $p2.appendTo($container);
 
   let $p3 = $("<p class = civBonus></p>");
-  $p3.text(civsData.civilization_bonus);
+  $p3.text("Civilization Bonuses: " + civsData.civilization_bonus);
   $p3.appendTo($container);
 
   let $p4 = $("<p class = teamBonus></p>");
-  $p4.text(civsData.team_bonus);
+  $p4.text("Team Bonus: " + civsData.team_bonus);
   $p4.appendTo($container);
+
+  let $image = $("<img class = castle src = castle.jpg>")
+  $image.appendTo($container);
 
   console.log($h1);
   console.log($p);

@@ -194,5 +194,12 @@ body {
     margin-right: auto;
 }
 
+.castle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;  
+}
+
 
 
