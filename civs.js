@@ -61,9 +61,9 @@ function createCivsList(data) {
   let $image = $("<img class = castle src = castle.jpg>")
   $image.appendTo($container);
 
-  console.log($h1);
-  console.log($p);
-  console.log($p2);
-  console.log($p3);
+  // console.log($h1);
+  // console.log($p);
+  // console.log($p2);
+  // console.log($p3);
 }
 // }
